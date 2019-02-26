@@ -1,0 +1,758 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Kimar Chocolate</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+    <link href="assets/style/page.css" rel="stylesheet" type="text/css" />
+    <link href="assets/style/menu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="master_container" class="masterPage">
+      <table class="header">
+          <tr>
+              <td id="logoCell">
+                  <a href="index.html" title="Home">
+                      <img src="assets/images/Logo/KimarLogo_Small.png" />
+                  </a>
+              </td>
+              <td valign="bottom">
+                  <div class="suckertreemenu">
+                      <ul id="mainMenu">
+                          <li><a href="#">PRODUCTS</a>
+                              <ul>
+                                <li><a href="products.html?type=BabyShower">Baby Shower</a></li>
+                                <li><a href="products.html?type=Christmas">Christmas</a></li>
+                                <li><a href="products.html?type=Easter">Easter</a></li>
+                                <li><a href="products.html?type=MothersFathersDay">Father's/Mother's Day</a></li>
+                                <li><a href="products.html?type=Hospitality">Hospitality</a></li>
+                                <li><a href="products.html?type=Valentines">Valentine's Day</a></li>
+                                <li><a href="products.html?type=Wedding">Wedding</a></li>
+                                <li><a href="products.html?type=Truffles">Truffles</a></li>
+                                <li><a href="products.html?type=MoldedChocolate">Molded Chocolate</a></li>
+                                <li><a href="products.html?type=ChocolateImages">Chocolate Images</a></li>
+                                <li><a href="chocolatefountain.html">Chocolate Fountain</a></li>
+                                <li><a href="chocolatebusinesscards.html">Chocolate Business Cards</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="wholesale.html">WHOLESALE</a></li>
+                          <li><a href="#" style="width: 125px;">CHOCOLATE GUIDE</a>
+                              <ul>
+                                  <li><a href="chocolatehistory.html">History of Chocolate</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="about.html">ABOUT</a></li>
+                          <li><a href="contact.html" style="width: 75px;">CONTACT US</a></li>
+                      </ul>
+                      <br style="clear: left;" />
+                  </div>
+              </td>
+          </tr>
+      </table>
+      <div style="float: left;">
+          <div id="master_content" contenteditable="false" class="content">
+              <div id="inside_content" class="insideContent">
+
+                  <h3>History of Chocolate</h3>
+                  <br />
+                  <div id="historyChronology">
+                      <table width="700" class="info">
+                          <tr>
+                              <td align="right" width="50">
+                                  <b>600 &nbsp;</b>
+                              </td>
+                              <td width="410">
+                                  <span class="historyTitle" onclick="show('y600')">Culture and Cocoa</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y600" class="historyText">
+                                      A.D. 600 the Mayas undertook a massive migration which led this highly civilised
+                                      people from Central America deep into the northern regions of South America. In
+                                      Yucatan they established the earliest known cocoa plantations. There is no doubt,
+                                      however, that the Mayas must have been familiar with cocoa several centuries earlier.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1000 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1000')">Beans and Figures</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1000" class="historyText">
+                                      From the very early days of cocoa the peoples of Central America used beans as a
+                                      form of payment. The use of cocoa beans as units of calculation must also have become
+                                      established before A.D. 1000. One Zontli equalled 400 cocoa beans, while 8000 beans
+                                      equalled one Xiquipilli. In Mexican picture scripts a basket with 8000 beans represents
+                                      the figure 8000.
+                                  </div>
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td align="right">
+                                  <b>1200 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1200')">Chocolate War</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1200" class="historyText">
+                                      By subjugating the Chimimeken and the Mayas, the Aztecs strengthened their supremacy
+                                      in Mexico. Records dating from this period include details of deliveries of cocoa
+                                      which were imposed as tributes on conquered tribes.<br>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1502 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1502')">Columbus and the Cocoa bean</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1502" class="historyText">
+                                      On his fourth voyage to America, Columbus landed on 30th July 1502 in Nicaragua
+                                      and was the first European to discover cocoa beans. These were used by the natives
+                                      as currency and also in the preparation of a delightful drink. But Columbus, who
+                                      was still searching for the sea route to India, was not interested in cocoa.
+                                  </div>
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td align="right">
+                                  <b>1513 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1513')">Payment in Beans</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1513" class="historyText">
+                                      Hernando de Oviedo y Valdez, who went to America in 1513 as a member of Pedrarias
+                                      Avila's expedition, reports that he bought a slave for 100 cocoa beans.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1519 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1519')">A Spanish Bank</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1519" class="historyText">
+                                      Hernando Cortez, who conquered part of Mexico in 1519, finds the taste of cocoa
+                                      not particularly pleasant and is, therefore, much more interested in the value of
+                                      cocoa as a means of payment. He immediately establishes in the name of Spain a cocoa
+                                      plantation where, henceforth, 'money' will be cultivated.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1528 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1528')">Sweet Plunder</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1528" class="historyText">
+                                      In 1528, Cortez brings back to Europe the first cocoa and the utensils necessary
+                                      for its preparation.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1609 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1609')">The First Chocology</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1609" class="historyText">
+                                      'Libro en el cual se trata del chocolate' is the title of a book which appear- ed
+                                      in Mexico in 1609. It is the first book devoted entirely to the subject of chocolate.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1615 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1615')">Fruitful Marriage</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1615" class="historyText">
+                                      The Spanish princess Anna of Austria marries Louis XIII and intro- duces, amongst
+                                      other Spanish customs, the drinking of chocolate at the French court.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right" width="50">
+                                  <b>1657 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1657')">A Frenchman in London</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1657" class="historyText">
+                                      London's first chocolate shop is opened by a Frenchman in 1657.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1662 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1662')">A Solomon of Chocolate</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1662" class="historyText">
+                                      After Pope Pius V had found cocoa so unpleasant that he declared, in 1569, that
+                                      "this drink does not break the fast", the supreme church of Rome became more and
+                                      more tolerant towards the exquisite beverage. The question of the fast took on a
+                                      new urgency. In 1662, Cardinal Brancaccio hands down the judgment of Solomon:"Liquidum
+                                      non fragit jejunum." In other words:"Liquids (in the form of chocolate) do not break
+                                      the fast." Clearly, one had to wait until Easter to indulge in the eating of chocolate.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1670 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1670')">The Fate of a Seaman</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1670" class="historyText">
+                                      Helmsman Pedro Bravo do los Camerinos decides that he has had enough of Christian
+                                      voyages of exploration and settles in the Philippines, where he spends the rest
+                                      of his life planting cocoa, thus laying the foundations for one of the great plantations
+                                      of that time.
+                                  </div>
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td align="right">
+                                  <b>1671 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1671')">Blissful Accident</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1671" class="historyText">
+                                      A clumsy kitchen-boy drops a bowlful of almonds on the floor. The angry chef tries
+                                      to box his ears and, in the process, spills a panful of hot, burnt sugar over the
+                                      almonds. The Duke of Plesslis-Praslin, a marshal who is renowned as a gourmet, is
+                                      waiting for his dessert. "What now?" thinks his personal chef and, in desperation,
+                                      serves the marshal with the almonds covered with a coating of cooled sugar. The
+                                      guest is delighted with the novel dessert and promptly gives his name to the new
+                                      sweet. Not, however, the full name, but simply "Praslin". Since then this sweet
+                                      has undergone many changes, including the development of the modern term "praline"
+                                      from the original name.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1674 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1674')">Roll Call</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1674" class="historyText">
+                                      "At the Coffee Mill and Tobacco Roll" was the name of a famous London coffee-house
+                                      where, as early as 1674, one could enjoy chocolate in cakes and rolls "in the Spanish
+                                      style".
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1677 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1677')">A Royal Decree</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1677" class="historyText">
+                                      On the strength of a royal decree dated 1st November 1677, Brazil - later to achieve
+                                      an important position in the world market - establishes in the State of Para' the
+                                      first cocoa plantations.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1697 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1697')">Premier in Zurich</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1697" class="historyText">
+                                      Heinrich Escher, the mayor of Zurich, visits Brussels where he drinks chocolate
+                                      and returns to his home town with tidings of the new sweet drink.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1704 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1704')">Chocolate Tax</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1704" class="historyText">
+                                      Towards the end of the 17th century, chocolate makes its appearance in Germany.
+                                      The policy of restricting the importation of foreign produce leads Frederick I of
+                                      Prussia to impose a tax on chocolate in 1704. Anyone wishing to pay homage to its
+                                      pleasures has to pay two thalers for a permit.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1711 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1711')">Chocolate Migration</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1711" class="historyText">
+                                      Emperor Charles VI transfers his court from Madrid to Vienna in 1711. With the court,
+                                      chocolate moves in by via the blue Danube.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1720 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1720')">Chocolateers</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1720" class="historyText">
+                                      As early as 1720, the coffee-houses of Florence and Venice are offering chocolate
+                                      whose reputation reaches far beyond the country's borders. Italian chocolateers,
+                                      well versed in the art of making chocolate, are, therefore, welcome visitors in
+                                      France, Germany and Switzerland.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1747 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1747')">No Hawkers</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1747" class="historyText">
+                                      In the year 1747, Frederick the Great forbids all manner of hawking, especially
+                                      the hawking of chocolate.<br>
+                                  </div>
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td align="right">
+                                  <b>1755 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1755')">Last but not Least</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1755" class="historyText">
+                                      America, in those days not yet the land of plenty, learns of chocolate relatively
+                                      late, in fact, not until 1755.<br>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1780 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1780')">First Factory</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1780" class="historyText">
+                                      About the year 1780, the first machine-made chocolate is produced in Barcelona.<br>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1792 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1792')">Two from the Grisons in Berlin</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1792" class="historyText">
+                                      The Josty brothers from the Grisons made a major contribution to the repu- tation
+                                      of Swiss chocolate in Germany. In 1792 they open a confectioner's shop and chocolate
+                                      factory in Berlin. Eberty, the historian, sings the praises of their products: "Everything
+                                      which one got at Josty's was excellent, and the chocolate really first rate."
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1797 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1797')">Cautious Goethe</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1797" class="historyText">
+                                      Johann Wolfgang von Goethe does not have much confidence in the Swiss hotel industry.
+                                      For his tour of Switzerland in 1797 he includes in his luggage chocolate and a chocolate
+                                      pot.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1810 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1810')">Top of the League</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1810" class="historyText">
+                                      Venezuela's leading position in the production of cocoa is established. A survey
+                                      in the year 1810 shows that this country produces half the world's requirements.
+                                      One third of the world's entire cocoa production is consumed by the Spaniards.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1819 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1819')">Pioneers</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1819" class="historyText">
+                                      The first Swiss chocolate factory is set up in a former mill near Vevey. The founder,
+                                      Francois-Louis Cailler, had learned the secrets of the choco- late-making trade
+                                      in Italy.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1822 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1822')">Ornamental Plant</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1822" class="historyText">
+                                      The Portuguese Jose Ferreira Gomes introduces the cocoa tree as an ornamental plant
+                                      on the small island of Principe in the Gulf of Guinea off the west coast of Africa.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1857 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1857')">The Swiss in Africa</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1857" class="historyText">
+                                      Under the encouragement of the Portuguese Baron of Agua Ize, the culti- vation of
+                                      cocoa passes from Principe on the neighbouring island of Sao Thome, and from there
+                                      to the African continent. In Ghana, the members of the Basle Mission promote it
+                                      successfully. Surprisingly quickly, the many small and medium farmers develop the
+                                      country into one of the most important producers.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1875 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1875')">With Milk</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1875" class="historyText">
+                                      After eight years of experiment, the Swiss Daniel Peter puts the first milk chocolate
+                                      on the market in 1875.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1879 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1879')">Melting Sweetness</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1879" class="historyText">
+                                      Rodolphe Lindt of Berne produces chocolate which melts on the tongue for the first
+                                      time in the year 1879.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="right">
+                                  <b>1900 &nbsp;</b>
+                              </td>
+                              <td>
+                                  <span class="historyTitle" onclick="show('y1900')">Changes in Leadership</span>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              </td>
+                              <td>
+                                  <div id="y1900" class="historyText">
+                                      Spain, formerly the classic land of chocolate, falls far behind. Germany takes the
+                                      lead in consumption per head, followed by the United States, France and Great Britain.
+                                      In just a decade or two another country will be playing first violin in the orchestra
+                                      of the chocolate nations - Switzerland. The reputation of Swiss chocolate, bolstered
+                                      by unbroken series of medals at international exhibitions, has not only fallen upon
+                                      the ears of foreigners. It has also conquered Swiss palates. Like bratwurst, rösti
+                                      and fondue, chocolate has become a national dish.
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td></td>
+                              <td>
+                                  <div style="font: 11px arial; margin-top: 20px;">
+                                      Extract from © Chocologie, published with permission from CHOCOSUISSE (Union of
+                                      Swiss Chocolate Manufacturers), Münzgraben 6, CH-3000 Bern 7
+                                  </div>
+                                  <br>
+                                  <br>
+                              </td>
+                          </tr>
+                      </table>
+                  </div>
+                  <div id="historyPicDiv">
+                      <img src="assets/images/Chocolate Guide/Aztecs.jpg" class="historyPic" />
+                      <div class="historyPicExplanation">
+                          Aztecs preparing "Xocolatl": cocoa beans were roasted, ground and mixed with water
+                          and spices to form a foamy liquid (Olfert Dapper, "Die unbekannte Neue Welt").
+                      </div>
+                      <br />
+                      <br />
+                      <img src="assets/images/Chocolate%20Guide/swiss_choco_flourish.jpg" class="historyPic" />
+                      <div class="historyPicExplanation">
+                          The early manufactories soon grew into real factories. The largest at the end of
+                          the 19th century was that of Philippe Suchard in Serrières.
+                      </div>
+                      <br />
+                      <br />
+                      <img src="assets/images/Chocolate%20Guide/golden_age.jpg" class="historyPic" />
+                      <div class="historyPicExplanation">
+                          Where in the past women stood at long tables, and later conveyor belts, carefully
+                          placing chocolates in boxes, today robots do the same job in a fraction of time.
+                          Attentive staff check and correct the work of the robots.
+                      </div>
+                      <br />
+                      <br />
+                      <img src="assets/images/Chocolate%20Guide/shaping.jpg" class="historyPic" />
+                      <div class="historyPicExplanation">
+                          The oldest way of shaping chocolate: the fragrant liquid chocolate is measured out
+                          into flat moulds, the shape of which represents the finished product in reverse.
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+      <div id="newContentDiv" visible="false" class="ribbon_content">
+        <a href="chocolatefountain.html" title="Learn about our chocolate fondue fountains...">
+            <img id="gggg" src="assets/images/New/fountainNew.jpg" class="ribbon left" alt="" />
+        </a><a href="products.html?type=Truffles" title="Check out the Kimar Truffle collection...">
+            <img src="assets/images/New/truffleNew.jpg" class="ribbon left" alt="" />
+        </a><a href="chocolatebusinesscards.html" title="Check out the Kimar Wedding collection...">
+            <img src="assets/images/New/businesscardNew.jpg" class="ribbon left" alt="" />
+        </a><a href="products.html?type=Wedding" title="Check out the Kimar Wedding collection...">
+            <img src="assets/images/New/weddingNew.jpg" class="ribbon" alt="" />
+        </a>
+    </div>
+  </div>
+  <div id="FooterBox" align="center">
+      <a href="about.html">about us</a> <a href="#">shipping info</a> <a href="#">terms of
+          use</a> <a href="#">business to business</a>
+      <div id="Copyright">
+          Copyright � 2006-2009 Kimar Company. All Rights reserved.
+      </div>
+  </div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+$(function(){
+    $("#mainMenu")
+        .find("li")
+        .each(function(){
+            var obj = $(this);
+            if(obj.parent().get(0).id == "mainMenu") {
+                obj.addClass("top");
+            } else {
+                obj.addClass("sub");
+            }
+        })
+        .hover(function(){ $("ul", this).show(); })
+        .find("ul")
+        .each(function(){
+            var obj = $(this);
+            var parent = obj.parent();
+            parent.hover(
+                function(){ obj.css("visibility", "visible"); },
+                function(){ obj.css("visibility", "hidden"); });
+            obj.css("top", parent.height()+"px");
+        });
+});
+
+</script>

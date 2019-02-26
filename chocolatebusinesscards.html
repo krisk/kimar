@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Kimar Chocolate</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+
+    <link href="assets/style/page.css" rel="stylesheet" type="text/css" />
+    <link href="assets/style/menu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="master_container" class="masterPage">
+      <table class="header">
+          <tr>
+              <td id="logoCell">
+                  <a href="index.html" title="Home">
+                      <img src="assets/images/Logo/KimarLogo_Small.png" />
+                  </a>
+              </td>
+              <td valign="bottom">
+                  <div class="suckertreemenu">
+                      <ul id="mainMenu">
+                          <li><a href="#">PRODUCTS</a>
+                              <ul>
+                                <li><a href="products.html?type=BabyShower">Baby Shower</a></li>
+                                <li><a href="products.html?type=Christmas">Christmas</a></li>
+                                <li><a href="products.html?type=Easter">Easter</a></li>
+                                <li><a href="products.html?type=MothersFathersDay">Father's/Mother's Day</a></li>
+                                <li><a href="products.html?type=Hospitality">Hospitality</a></li>
+                                <li><a href="products.html?type=Valentines">Valentine's Day</a></li>
+                                <li><a href="products.html?type=Wedding">Wedding</a></li>
+                                <li><a href="products.html?type=Truffles">Truffles</a></li>
+                                <li><a href="products.html?type=MoldedChocolate">Molded Chocolate</a></li>
+                                <li><a href="products.html?type=ChocolateImages">Chocolate Images</a></li>
+                                <li><a href="chocolatefountain.html">Chocolate Fountain</a></li>
+                                <li><a href="chocolatebusinesscards.html">Chocolate Business Cards</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="wholesale.html">WHOLESALE</a></li>
+                          <li><a href="#" style="width: 125px;">CHOCOLATE GUIDE</a>
+                              <ul>
+                                  <li><a href="chocolatehistory.html">History of Chocolate</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="about.html">ABOUT</a></li>
+                          <li><a href="contact.html" style="width: 75px;">CONTACT US</a></li>
+                      </ul>
+                      <br style="clear: left;" />
+                  </div>
+              </td>
+          </tr>
+      </table>
+      <div style="float: left;">
+          <div id="master_content" contenteditable="false" class="content">
+              <div id="inside_content" class="insideContent">
+
+                  <h3>
+                      Chocolate Business Cards</h3>
+                  <div class="info" style="float: left; width: 730px;">
+                      <span class="bold italic" style="color: Red;">Transform your business card into a memorable
+                          and delicious experience that your clients will never forget!</span>
+                      <br />
+                      <br />
+                      <p>
+                          Chocolate business cards are exquisitely detailed and are made only with chocolate!
+                          Open doors and be remembered with these business cards which reinforce the quality
+                          of your presentation.
+                      </p>
+                      <br />
+                      <div style="float:left;height: 200px">
+                          <a data-fancybox="gallery" href="assets/images/Business Cards/108689m.jpg">
+                              <img style="float:left; border: solid 1px; margin-right: 10px; margin-left: 5px;" src="assets/images/Business Cards/108689m_small.jpg" />
+                          </a>
+                          <h4 style="float:left;">For businesses</h4>
+                          <p style="margin-top:40px;">
+                              Your company's logo tastefully presentedon our gourmet chocolate business cards.
+                              Packaged in a clear clamshell case or cellophane window colored box. Each box has
+                              slits on the back to hold one of your actual business cards.
+                          </p>
+                      </div>
+                      <div style="float:left;">
+                          <a data-fancybox="gallery" href="assets/images/Business Cards/S893.jpg">
+                              <img style="float:left; border: solid 1px; margin-right: 10px; margin-left: 5px;" src="assets/images/Business Cards/S893_small.jpg" />
+                          </a>
+                          <b>Got a shape in mind which identifies your business? We’ll make it!</b>
+                          <br />
+                          <br />
+                          <br />
+                          <p>More questions? <a href="contact.html">Contact us.</a></p>
+                      </div>
+                  </div>
+                  <a data-fancybox="gallery" href="assets/images/Business Cards/3400_large_1.jpg" style="float: left; margin-top: -20px;">
+                      <img src="assets/images/Business Cards/businss1.png" />
+                  </a>
+
+              </div>
+          </div>
+      </div>
+      <div id="newContentDiv" visible="false" class="ribbon_content">
+        <a href="chocolatefountain.html" title="Learn about our chocolate fondue fountains...">
+            <img id="gggg" src="assets/images/New/fountainNew.jpg" class="ribbon left" alt="" />
+        </a><a href="products.html?type=Truffles" title="Check out the Kimar Truffle collection...">
+            <img src="assets/images/New/truffleNew.jpg" class="ribbon left" alt="" />
+        </a><a href="chocolatebusinesscards.html" title="Check out the Kimar Wedding collection...">
+            <img src="assets/images/New/businesscardNew.jpg" class="ribbon left" alt="" />
+        </a><a href="products.html?type=Wedding" title="Check out the Kimar Wedding collection...">
+            <img src="assets/images/New/weddingNew.jpg" class="ribbon" alt="" />
+        </a>
+    </div>
+  </div>
+  <div id="FooterBox" align="center">
+      <a href="about.html">about us</a> <a href="#">shipping info</a> <a href="#">terms of
+          use</a> <a href="#">business to business</a>
+      <div id="Copyright">
+          Copyright � 2006-2009 Kimar Company. All Rights reserved.
+      </div>
+  </div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+$(function(){
+    $("#mainMenu")
+        .find("li")
+        .each(function(){
+            var obj = $(this);
+            if(obj.parent().get(0).id == "mainMenu") {
+                obj.addClass("top");
+            } else {
+                obj.addClass("sub");
+            }
+        })
+        .hover(function(){ $("ul", this).show(); })
+        .find("ul")
+        .each(function(){
+            var obj = $(this);
+            var parent = obj.parent();
+            parent.hover(
+                function(){ obj.css("visibility", "visible"); },
+                function(){ obj.css("visibility", "hidden"); });
+            obj.css("top", parent.height()+"px");
+        });
+});
+
+</script>
+
