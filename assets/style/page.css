@@ -85,7 +85,7 @@ h4
 
 .header
 {
-	background-image: url(../images/logo/headerBackWide.jpg);
+	background-image: url(../images/Logo/headerBackWide.jpg);
 	padding: 5px 0px 3px 5px;
 	margin-bottom: 5px;
 	width: 1068px;
@@ -343,7 +343,7 @@ h4
 
 #yourShoppingCartImg
 {
-	background: url(            "../Images/General/Your_Shopping_Cart.gif" ) no-repeat;
+	background: url("../images/General/Your_Shopping_Cart.gif" ) no-repeat;
 }
 
 #yourShoppingCart
@@ -545,25 +545,25 @@ height:10px;
 height:14px;
 }
 .dialog .hd {
-background:transparent url(../Images/Border/Inner/tl.png) no-repeat scroll 0 0;
+background:transparent url(../images/Border/Inner/tl.png) no-repeat scroll 0 0;
 }
 .dialog .hd .c {
-background:transparent url(../Images/Border/Inner/tr.png) no-repeat scroll right 0;
+background:transparent url(../images/Border/Inner/tr.png) no-repeat scroll right 0;
 }
 .dialog .bd {
-background:transparent url(../Images/Border/Inner/ml.png) repeat-y scroll 0 0;
+background:transparent url(../images/Border/Inner/ml.png) repeat-y scroll 0 0;
 }
 .dialog .bd .c {
-background:transparent url(../Images/Border/Inner/mr.png) repeat-y scroll right 0;
+background:transparent url(../images/Border/Inner/mr.png) repeat-y scroll right 0;
 }
 .dialog .bd .c .s {
-background:#000000 url(../Images/Border/Inner/ms.gif) repeat-x scroll 0 0;
+background:#000000 url(../images/Border/Inner/ms.gif) repeat-x scroll 0 0;
 margin:0 8px 0 4px;
 padding:1em;
 }
 .dialog .ft {
-background:transparent url(../Images/Border/Inner/bl.png) no-repeat scroll 0 0;
+background:transparent url(../images/Border/Inner/bl.png) no-repeat scroll 0 0;
 }
 .dialog .ft .c {
-background:transparent url(../Images/Border/Inner/br.png) no-repeat scroll right 0;
+background:transparent url(../images/Border/Inner/br.png) no-repeat scroll right 0;
 }
